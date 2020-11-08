@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
@@ -13,13 +13,12 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1510125594188-5afc74c8cc43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center/cover"
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center/cover"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
 		>
-			<Image width="256px" height="64px" src="https://uploads.quarkly.io/5fa843b72c4ef2001e31f40d/images/header-logo.png?v=2020-11-08T19:24:38.051Z" />
 			<Stack>
 				<StackItem width="75%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -28,6 +27,7 @@ export default (() => {
 					</Text>
 				</StackItem>
 			</Stack>
+			<Image width="256px" height="64px" src="https://uploads.quarkly.io/5fa843b72c4ef2001e31f40d/images/header-logo.png?v=2020-11-08T19:24:38.051Z" />
 		</Section>
 		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
 			<Stack>
@@ -71,6 +71,10 @@ export default (() => {
 		</Section>
 		<Image width="64px" height="64px" />
 		<Image width="64px" height="64px" />
+		<Image width="64px" height="64px" />
+		<Image width="64px" height="64px" />
+		<Image width="64px" height="64px" />
+		<Input />
 		<Image width="64px" height="64px" />
 		<Image width="64px" height="64px" />
 		<Image width="64px" height="64px" />
